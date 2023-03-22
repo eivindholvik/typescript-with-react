@@ -32,6 +32,7 @@ function App(): JSX.Element {
 
   return (
     <div className="App">
+      <div>En liten endring</div>
       {data &&
         data.map((user) => {
           return (
